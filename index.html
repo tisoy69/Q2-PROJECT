@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes - SnapSavor</title>
+  <link rel="stylesheet" type="text/css" href="./css/home.css">
+</head>
+<body>
+  <header>
+    <h2>Join our Foodie Community!</h2>
+    <a href="index.html">Home</a>
+    <a href="./htdocs/recipes.html">Recipes</a>
+    <a href="./htdocs/dining.html">Dining Hotspots</a>
+    <a href="./htdocs/community.html">Community Forum</a>
+    <div id="profile-section">
+      <img src="./images/profile.png" alt="Profile Image">
+      <p id="login-link">Profile <span id="username-display"></span></p>
+    </div>
+    <h1>SnapSavor</h1>
+    <p>Your culinary journey begins here.</p>
+    <input type="text" placeholder="Search for recipes">
+  </header>
+
+  <section>
+    <h2>Popular Recipes...</h2>
+    <div class="recipe-card">
+      <a href="./htdocs/recipe1.html">
+        <img class="recipe-image" src="./htdocs/recipe1.html" alt="Recipe 1">
+        <p>Filipino Pork Adobo</p>
+      </a>
+    </div>
+    <div class="recipe-card">
+      <a href="./htdocs/recipe2.html">
+        <img class="recipe-image" src="./htdocs/recipe2.html" alt="Recipe 2">
+        <p>Pancit</p>
+      </a>
+    </div>
+    <div class="recipe-card">
+      <a href="./htdocs/recipe3.html">
+        <img class="recipe-image" src="./htdocs/recipe3.html" alt="Recipe 3">
+        <p>Filipino Pork Menudo</p>
+      </a>
+    </div>
+    <div class="recipe-card">
+      <a href="./htdocs/recipe4.html">
+        <img class="recipe-image" src="./htdocs/recipe4.html" alt="Recipe 4">
+        <p>Pork Sisig</p>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 SnapSavor</p>
+    <ul id="navlist">
+      <li id="facebook"><a href="https://www.facebook.com/profile.php?id=100073641940384"></a></li>
+      <li id="pinterest"><a href="https://www.pinterest.ph/fakebarackobama/"></a></li>
+    </ul>
+  </footer>
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="button" onclick="performLogin()">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./htdocs/home.js"></script>
+</body>
+</html>
