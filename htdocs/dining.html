@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes - SnapSavor</title>
+  <link rel="stylesheet" type="text/css" href="../css/home.css">
+</head>
+<body>
+  <header>
+    <h2>Join our Foodie Community!</h2>
+    <a href="../index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="dining.html">Dining Hotspots</a>
+    <a href="community.html">Community Forum</a>
+    <div id="profile-section">
+      <img src="../images/profile.png" alt="Profile Image">
+      <p id="login-link">Profile <span id="username-display"></span></p>
+    </div>
+    <h1>SnapSavor</h1>
+    <p>Your culinary journey begins here.</p>
+    <input type="text" placeholder="Search for recipes">
+  </header>
+
+  <section>
+    <h2 id="bara">Featured Dining Hotspots</h2>
+    <div class="dining-hotspot">
+      <img src="https://i.ytimg.com/vi/r0sjCawEOKk/maxresdefault.jpg" alt="Dining Hotspot 1">
+      <h3 id="dum">Cozy Cafe</h3>
+      <p>Discover the warmth of Cozy Cafe, offering delightful coffee and pastries in a serene ambiance.</p>
+      <div class="review">
+        <strong>Customer Review:</strong>
+        <p>"A hidden gem! Loved the cozy atmosphere and delicious coffee."</p>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section>
+    <h2 id="singa">Categories</h2>
+    <p>Explore diverse dining experiences:</p>
+    <ul>
+      <li><a href="#">Casual Dining</a></li>
+      <li><a href="#">Fine Dining</a></li>
+      <li><a href="#">Local Gems</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Dining Hotspot Details</h2>
+    <div class="dining-hotspot">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/bd/cb/24/the-spice-heaven-chippenham.jpg" alt="Dining Hotspot 2">
+      <h3 id="dum">Spice Haven</h3>
+      <p>Experience a burst of flavors at Spice Haven, known for its diverse and aromatic dishes.</p>
+      <div class="review">
+        <strong>Customer Review:</strong>
+        <p>"Fantastic food! Each dish tells a unique story of flavors."</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 SnapSavor</p>
+    <ul id="navlist">
+      <li id="facebook"><a href="https://www.facebook.com/profile.php?id=100073641940384"></a></li>
+      <li id="pinterest"><a href="https://www.pinterest.ph/fakebarackobama/"></a></li>
+    </ul>
+  </footer>
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="button" onclick="performLogin()">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>
