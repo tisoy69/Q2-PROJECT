@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe 1 - SnapSavor</title>
+  <link rel="stylesheet" type="text/css" href="../css/recipe.css">
+</head>
+<body>
+  <header>
+    <h2>Join our Foodie Community!</h2>
+    <a href="../index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="dining.html">Dining Hotspots</a>
+    <a href="community.html">Community Forum</a>
+    <div id="profile-section">
+      <img src="../images/profile.png" alt="Profile Image">
+      <p id="login-link">Profile <span id="username-display"></span></p>
+    </div>
+    <h1>SnapSavor</h1>
+    <p>Your culinary journey begins here.</p>
+    <input type="text" placeholder="Search for recipes">
+  </header>
+
+  <section>
+    <div class="recipe-title">Filipino Pork Adobo</div>
+    <img class="recipe-image" src="../images/recipe1.jpg" alt="Recipe 1">
+    <p class="recipe-description">Filipino Pork Adobo is a classic and beloved dish in Filipino cuisine. It's a savory and slightly tangy stew made with pork, soy sauce, vinegar, garlic, and a few other ingredients. Here's a description and a step-by-step guide to cooking Pork Adobo:</p>
+    <p class="recipe-description"><strong>Ingredients:</strong></p>
+    <p class="recipe-description">- 1.5 to 2 pounds of pork belly, shoulder, or a combination of both, cut into 1-2 inch cubes</p>
+    <p class="recipe-description">- 1/2 cup soy sauce</p>
+    <p class="recipe-description">- 1/2 cup white vinegar</p>
+    <p class="recipe-description">- 1 head of garlic, peeled and minced (about 8-10 cloves)</p>
+    <p class="recipe-description">- 1 bay leaf</p>
+    <p class="recipe-description">- 1 teaspoon black peppercorns</p>
+    <p class="recipe-description">- 1 teaspoon brown sugar (optional)</p>
+    <p class="recipe-description">- 1 cup water</p>
+    <p class="recipe-description">- Cooking oil</p>
+    <p class="recipe-description">- Salt, to taste</p>
+    <p class="recipe-description"><strong>Instructions:</strong></p>
+    <p class="recipe-description">1. <strong>Marinate the pork:</strong> In a large bowl, combine the pork pieces, minced garlic, soy sauce, and black peppercorns. Mix well, ensuring that the pork is coated with the marinade. You can marinate for at least 30 minutes, but for better flavor, marinate for a few hours or overnight in the refrigerator.</p>
+    <p class="recipe-description">2. <strong>Sear the pork:</strong> In a large, heavy-bottomed skillet or pot, heat a bit of cooking oil over medium-high heat. Add the marinated pork and sear it until it starts to brown. This step helps enhance the flavor of the dish. Once the pork has browned, remove it from the skillet and set it aside.</p>
+    <p class="recipe-description">3. <strong>Create the sauce:</strong> In the same skillet, add the remaining marinade and let it simmer for a few minutes to reduce and intensify the flavor. You can also add the brown sugar at this point if you want a slightly sweeter taste. Stir occasionally.</p>
+    <p class="recipe-description">4. <strong>Add the seared pork back in:</strong> Once the sauce has reduced a bit, return the seared pork to the skillet.</p>
+    <p class="recipe-description">5. <strong>Pour in water and add the bay leaf:</strong> Add a cup of water to the skillet and the bay leaf. Bring the mixture to a boil.</p>
+    <p class="recipe-description">6. <strong>Simmer:</strong> Once it's boiling, reduce the heat to low, cover the skillet, and let the pork simmer for about 30-45 minutes, or until the pork becomes tender and the sauce thickens. Stir occasionally to ensure the pork doesn't stick to the bottom of the skillet. You may need to adjust the cooking time depending on the thickness of your pork and your preferred level of tenderness.</p>
+    <p class="recipe-description">7. <strong>Adjust the taste:</strong> Taste the Adobo and adjust the seasoning with salt and pepper, if necessary. You can also add more vinegar or soy sauce to achieve your preferred level of tanginess and saltiness.</p>
+    <p class="recipe-description">8. <strong>Serve:</strong> Once the pork is tender and the sauce has thickened to your liking, remove the bay leaf. Filipino Pork Adobo is traditionally served with steamed rice, and you can garnish it with some sliced green onions or fried garlic bits for added flavor and texture.</p>
+    <p class="recipe-description">Enjoy your homemade Filipino Pork Adobo! It's a flavorful, comforting dish that's perfect for any occasion.</p>
+  </section>
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/Ix5Dnud1bl0?autoplay=1&mute=1" title="AWESOME Pork Adobo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <footer>
+    <p>&copy; 2023 SnapSavor</p>
+    <ul id="navlist">
+      <li id="facebook"><a href="https://www.facebook.com/profile.php?id=100073641940384"></a></li>
+      <li id="pinterest"><a href="https://www.pinterest.ph/fakebarackobama/"></a></li>
+    </ul>
+  </footer>
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="button" onclick="performLogin()">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>
